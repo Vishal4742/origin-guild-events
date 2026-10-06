@@ -1,0 +1,28 @@
+[
+  {
+    "id": "claude-ozni",
+    "title": "Claude Impact Lab × Cerebras Cafe Compute | Bhopal",
+    "start": "2026-10-10T10:30:00Z",
+    "end": "2026-10-11T14:00:00Z",
+    "where": "Bhopal, Madhya Pradesh",
+    "hosts": "Aniket Sahu, Arun Pratap Singh Chandel, Diyi Zhu · Claude Community Events",
+    "desc": "Two days. Day 1 (4–7 PM): Cerebras workflow integration. Day 2 (9 AM–7:30 PM): a full Impact Lab where teams of 4–5 build on a real problem from a Madhya Pradesh government department with MPSeDC, using Claude, Claude Code and Cerebras inference.",
+    "cover": "claude.jpg",
+    "url": "https://luma.com/claude-ozni",
+    "approval": true,
+    "evt": "evt-Lj5GOU7H3UbEkEF"
+  },
+  {
+    "id": "rehgljyq",
+    "title": "Tally Meetup — Bhopal",
+    "start": "2026-10-18T11:00:00Z",
+    "end": "2026-10-18T14:00:00Z",
+    "where": "Minal Residency, Bhopal, Madhya Pradesh",
+    "hosts": "Ward Boone, Vishal Kumar · The Origin Guild",
+    "desc": "The first Tally meetup in Bhopal. A Tally 101 session, then a live form-build with Tally's AI assistant where you make your own form and share results. Chai, snacks, good conversations. Free, limited spots, no laptop needed.",
+    "cover": "tally.jpg",
+    "url": "https://luma.com/rehgljyq",
+    "approval": true,
+    "evt": "evt-4iN6jvPxVGxlLEr"
+  }
+]

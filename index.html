@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Origin Guild Events</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+  /* Layout: a single event ledger column, next event as the hero. */
+  :root {
+    --bg: #f4f3ec;
+    --paper: #fffdf7;
+    --ink: #17201f;
+    --ink-2: #5b6563;
+    --line: #dcdbd0;
+    --marigold: #e9a21a;
+    --marigold-ink: #7a4f00;
+    --petrol: #1f5f5b;
+    --petrol-soft: #e1ecea;
+    --display: "Bricolage Grotesque", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+    --body: "Public Sans", "Helvetica Neue", Arial, sans-serif;
+    --mono: "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #121716; --paper: #1a2120; --ink: #f1f0e8; --ink-2: #a3aca9; --line: #2c3634;
+      --marigold: #f0b23a; --marigold-ink: #ffd98a; --petrol: #7fc4bd; --petrol-soft: #1d2f2d;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #121716; --paper: #1a2120; --ink: #f1f0e8; --ink-2: #a3aca9; --line: #2c3634;
+    --marigold: #f0b23a; --marigold-ink: #ffd98a; --petrol: #7fc4bd; --petrol-soft: #1d2f2d;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+  a { color: inherit; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding-inline: 20px; padding-block: 28px 56px; }
+
+  header { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; padding-bottom: 18px; border-bottom: 2px solid var(--ink); }
+  .brand { font-family: var(--display); font-weight: 800; font-size: 1.25rem; letter-spacing: -0.01em; }
+  .brand small { font-family: var(--mono); font-weight: 500; font-size: 0.72rem; color: var(--ink-2); margin-left: 10px; letter-spacing: 0.04em; }
+  .now { font-family: var(--mono); font-size: 0.75rem; color: var(--ink-2); letter-spacing: 0.04em; }
+
+  .grid { max-width: 760px; margin-top: 32px; }
+
+  /* Event ledger */
+  .ledger h2 { font-family: var(--display); font-weight: 700; font-size: 1.05rem; letter-spacing: -0.01em; margin: 0 0 14px; display: flex; align-items: center; gap: 10px; }
+  .ledger h2 .count { font-family: var(--mono); font-weight: 500; font-size: 0.7rem; color: var(--ink-2); }
+  .events { display: grid; gap: 18px; list-style: none; padding: 0; margin: 0; }
+  .event { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 20px; background: var(--paper); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
+  .event.hero { grid-template-columns: 240px minmax(0, 1fr); border-color: var(--petrol); }
+  @media (max-width: 560px) { .event, .event.hero { grid-template-columns: 1fr; } .cover { max-width: 260px; } }
+  .cover { aspect-ratio: 1; max-width: 100%; border-radius: 12px; overflow: hidden; background: var(--petrol-soft); }
+  .cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .meta { min-width: 0; display: flex; flex-direction: column; gap: 8px; }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+  .chip { font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 3px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink-2); }
+  .chip.next { background: var(--petrol); border-color: var(--petrol); color: #fffdf7; }
+  .chip.live { background: var(--marigold); border-color: var(--marigold); color: #17201f; }
+  .event h3 { font-family: var(--display); font-weight: 700; font-size: 1.15rem; line-height: 1.2; letter-spacing: -0.015em; margin: 0; text-wrap: balance; }
+  .hero h3 { font-size: clamp(1.4rem, 2.4vw, 1.75rem); }
+  .when { font-family: var(--mono); font-size: 0.8rem; color: var(--ink); font-variant-numeric: tabular-nums; }
+  .when span { color: var(--ink-2); }
+  .where, .hosts { font-size: 0.85rem; color: var(--ink-2); }
+  .desc { font-size: 0.9rem; max-width: 60ch; margin: 2px 0 0; }
+  .actions { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-top: auto; padding-top: 6px; }
+  .btn { display: inline-block; text-decoration: none; background: var(--ink); color: var(--bg); font: 600 0.85rem var(--body); padding: 9px 16px; border-radius: 10px; }
+  .btn.ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+  .countdown { font-family: var(--mono); font-size: 0.78rem; color: var(--petrol); }
+  .past .cover { filter: grayscale(1); opacity: .7; }
+  .past h3 { color: var(--ink-2); }
+  .empty { color: var(--ink-2); font-size: 0.9rem; padding: 24px; border: 1px dashed var(--line); border-radius: 14px; }
+  footer { margin-top: 40px; font-size: 0.78rem; color: var(--ink-2); display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">The Origin Guild <small>BHOPAL · MP</small></div>
+    <div class="now" id="now"></div>
+  </header>
+
+  <div class="grid">
+
+    <section class="ledger">
+      <h2>Upcoming <span class="count" id="upcount"></span></h2>
+      <ul class="events" id="upcoming"></ul>
+      <h2 id="pasthead" style="margin-top:36px" hidden>Past <span class="count" id="pastcount"></span></h2>
+      <ul class="events" id="past"></ul>
+    </section>
+  </div>
+
+  <footer>
+    <span>Times in IST (Asia/Kolkata). Exact venues are shared after approval on Luma.</span>
+    <span>Hosted on Luma</span>
+  </footer>
+</div>
+
+<script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js"></script>
+<script>
+
+  var EVENTS = [];
+
+  var IST = { timeZone: "Asia/Kolkata" };
+  function fmt(d, opts) { return new Intl.DateTimeFormat("en-IN", Object.assign({}, IST, opts)).format(d); }
+  function when(ev) {
+    var s = new Date(ev.start), e = new Date(ev.end);
+    var sameDay = fmt(s, { dateStyle: "medium" }) === fmt(e, { dateStyle: "medium" });
+    var day = fmt(s, { weekday: "short", day: "numeric", month: "short" });
+    var t = fmt(s, { hour: "numeric", minute: "2-digit" }) + "–" + fmt(e, { hour: "numeric", minute: "2-digit" });
+    if (sameDay) return day + " <span>·</span> " + t;
+    return day + " → " + fmt(e, { weekday: "short", day: "numeric", month: "short" }) + " <span>·</span> " + fmt(s, { hour: "numeric", minute: "2-digit" }) + " start";
+  }
+  function countdown(ev, now) {
+    var ms = new Date(ev.start) - now;
+    var days = Math.ceil(ms / 864e5);
+    if (days <= 0) return "Starts today";
+    if (days === 1) return "Tomorrow";
+    return "In " + days + " days";
+  }
+
+  function card(ev, i, now) {
+    var live = now >= new Date(ev.start) && now <= new Date(ev.end);
+    var past = now > new Date(ev.end);
+    var chips = past ? '<span class="chip">Past</span>'
+      : live ? '<span class="chip live">Happening now</span>'
+      : i === 0 ? '<span class="chip next">Next up</span>' : '<span class="chip">Upcoming</span>';
+    if (ev.approval && !past) chips += '<span class="chip">Approval required</span>';
+    return '<li class="event' + (i === 0 && !past ? " hero" : "") + (past ? " past" : "") + '">'
+      + '<div class="cover"><img src="' + ev.cover + '" alt="' + ev.title + ' cover" loading="lazy"></div>'
+      + '<div class="meta"><div class="chips">' + chips + '</div>'
+      + '<h3>' + ev.title + '</h3>'
+      + '<div class="when">' + when(ev) + '</div>'
+      + '<div class="where">📍 ' + ev.where + '</div>'
+      + '<div class="hosts">Hosted by ' + ev.hosts + '</div>'
+      + (past ? "" : '<p class="desc">' + ev.desc + '</p>')
+      + '<div class="actions">'
+      + (past ? '<a class="btn ghost" href="' + ev.url + '" target="_blank" rel="noopener">View on Luma</a>'
+              : '<a class="btn luma-checkout--button" href="https://luma.com/event/' + ev.evt + '" data-luma-action="checkout" data-luma-event-id="' + ev.evt + '">Register →</a><span class="countdown">' + (live ? "Live now" : countdown(ev, now)) + '</span>')
+      + '</div></div></li>';
+  }
+
+  function render() {
+    var now = new Date();
+    document.getElementById("now").textContent = fmt(now, { weekday: "short", day: "numeric", month: "short", year: "numeric" }) + " · IST";
+    var sorted = EVENTS.slice().sort(function (a, b) { return new Date(a.start) - new Date(b.start); });
+    var up = sorted.filter(function (e) { return now <= new Date(e.end); });
+    var past = sorted.filter(function (e) { return now > new Date(e.end); }).reverse();
+    document.getElementById("upcoming").innerHTML = up.length ? up.map(function (e, i) { return card(e, i, now); }).join("")
+      : '<li class="empty">Nothing scheduled right now. Check back soon.</li>';
+    document.getElementById("upcount").textContent = up.length ? up.length + (up.length === 1 ? " event" : " events") : "";
+    document.getElementById("past").innerHTML = past.map(function (e) { return card(e, 1, now); }).join("");
+    document.getElementById("pasthead").hidden = !past.length;
+    document.getElementById("pastcount").textContent = past.length;
+    return up;
+  }
+
+  fetch("events.json?" + Date.now()).then(function (r) { return r.json(); }).then(function (list) {
+    EVENTS = list; render(); setInterval(render, 60000);
+  });
+</script>
+</body>
+</html>
