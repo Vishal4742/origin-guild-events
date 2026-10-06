@@ -1,28 +1,54 @@
 [
   {
+    "id": "claude-lulm",
+    "evt": "evt-qZPWXSwDiflQJzM",
+    "title": "Bhopal | Claude For Everyone Bhopal",
+    "start": "2026-10-06T12:00:00.000Z",
+    "end": "2026-10-06T14:00:00.000Z",
+    "where": "Near City Hospital, Bhopal, Madhya Pradesh",
+    "hosts": "Aniket Sahu · Claude Community Events",
+    "desc": "Claude for Everyone - Bhopal A community meetup for anyone curious about Claude, AI and how these technologies are shaping the way we learn, work and create. Whether you are completely new to Claude, already using AI in your daily work, a student, developer, founder, designer, researcher or simply curious about…",
+    "cover": "https://images.lumacdn.com/api-uploads/u7/6a9c0149-3ce1-4be5-aaae-cbf1134e44b9.png",
+    "url": "https://luma.com/claude-lulm",
+    "approval": true
+  },
+  {
     "id": "claude-ozni",
+    "evt": "evt-Lj5GOU7H3UbEkEF",
     "title": "Claude Impact Lab × Cerebras Cafe Compute | Bhopal",
-    "start": "2026-10-10T10:30:00Z",
-    "end": "2026-10-11T14:00:00Z",
+    "start": "2026-10-10T10:30:00.000Z",
+    "end": "2026-10-11T14:00:00.000Z",
     "where": "Bhopal, Madhya Pradesh",
-    "hosts": "Aniket Sahu, Arun Pratap Singh Chandel, Diyi Zhu · Claude Community Events",
-    "desc": "Two days. Day 1 (4–7 PM): Cerebras workflow integration. Day 2 (9 AM–7:30 PM): a full Impact Lab where teams of 4–5 build on a real problem from a Madhya Pradesh government department with MPSeDC, using Claude, Claude Code and Cerebras inference.",
-    "cover": "claude.jpg",
+    "hosts": "Aniket Sahu, Arun Chandel, Diyi Zhu · Claude Community Events",
+    "desc": "Claude Impact Lab × Cerebras Cafe Compute | Bhopal 📅 Please note: this is a two-day programme with separate sessions each day. 10 October 2026 · 4:00–7:00 PM ISTCerebras Café Compute: Hands-on integration workshop, expert session and Impact Lab orientation. 11 October 2026 · 9:00 AM–7:30 PM ISTClaude Impact Lab: a…",
+    "cover": "https://images.lumacdn.com/uploads/4n/e5dccdf2-1da5-47f7-8618-ca148e4d13c8.png",
     "url": "https://luma.com/claude-ozni",
-    "approval": true,
-    "evt": "evt-Lj5GOU7H3UbEkEF"
+    "approval": true
+  },
+  {
+    "id": "claude-3brg",
+    "evt": "evt-CSyuH9KRvJTJEl4",
+    "title": "Bhopal | Claude Code Workshop",
+    "start": "2026-10-15T11:30:00.000Z",
+    "end": "2026-10-15T14:30:00.000Z",
+    "where": "Online",
+    "hosts": "Aniket Sahu · Claude Community Events",
+    "desc": "Join us for a hands-on workshop introducing the Claude ecosystem and how developers can build with Claude Code. This session is designed to help participants understand the different products within the Claude ecosystem when to use them and how they work together to support modern AI-powered development workflows.…",
+    "cover": "https://images.lumacdn.com/api-uploads/cj/f8e04431-12a2-448d-83e2-c23691a657ff.png",
+    "url": "https://luma.com/claude-3brg",
+    "approval": true
   },
   {
     "id": "rehgljyq",
-    "title": "Tally Meetup — Bhopal",
-    "start": "2026-10-18T11:00:00Z",
-    "end": "2026-10-18T14:00:00Z",
+    "evt": "evt-4iN6jvPxVGxlLEr",
+    "title": "Tally Meetup - Bhopal",
+    "start": "2026-10-18T11:00:00.000Z",
+    "end": "2026-10-18T14:00:00.000Z",
     "where": "Minal Residency, Bhopal, Madhya Pradesh",
-    "hosts": "Ward Boone, Vishal Kumar · The Origin Guild",
-    "desc": "The first Tally meetup in Bhopal. A Tally 101 session, then a live form-build with Tally's AI assistant where you make your own form and share results. Chai, snacks, good conversations. Free, limited spots, no laptop needed.",
-    "cover": "tally.jpg",
+    "hosts": "Ward Boone, Vishal kumar · Tally",
+    "desc": "We're hosting the first Tally meetup in Bhopal and you're invited. Quick note: this is Tally the form builder (tally.so), not Tally the accounting software. Tally is a free, no-code tool for making forms, surveys and sign-ups, and its AI assistant can build one from a plain description. Join us for an afternoon…",
+    "cover": "https://images.lumacdn.com/uploads/6u/fba10008-c3b3-4795-8ade-8df17d157ef7.png",
     "url": "https://luma.com/rehgljyq",
-    "approval": true,
-    "evt": "evt-4iN6jvPxVGxlLEr"
+    "approval": true
   }
 ]
