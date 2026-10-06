@@ -1,18 +1,5 @@
 [
   {
-    "id": "claude-lulm",
-    "evt": "evt-qZPWXSwDiflQJzM",
-    "title": "Bhopal | Claude For Everyone Bhopal",
-    "start": "2026-10-06T12:00:00.000Z",
-    "end": "2026-10-06T14:00:00.000Z",
-    "where": "Near City Hospital, Bhopal, Madhya Pradesh",
-    "hosts": "Aniket Sahu · Claude Community Events",
-    "desc": "Claude for Everyone - Bhopal A community meetup for anyone curious about Claude, AI and how these technologies are shaping the way we learn, work and create. Whether you are completely new to Claude, already using AI in your daily work, a student, developer, founder, designer, researcher or simply curious about…",
-    "cover": "https://images.lumacdn.com/api-uploads/u7/6a9c0149-3ce1-4be5-aaae-cbf1134e44b9.png",
-    "url": "https://luma.com/claude-lulm",
-    "approval": true
-  },
-  {
     "id": "claude-ozni",
     "evt": "evt-Lj5GOU7H3UbEkEF",
     "title": "Claude Impact Lab × Cerebras Cafe Compute | Bhopal",

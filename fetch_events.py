@@ -7,6 +7,7 @@ HOSTS = {
     "usr-jY4KvCPqGqRfktq": "Vishal Kumar",  # luma.com/user/Vishal_4743
 }
 SITES = ["https://www.withclaude.in/events/", "https://www.withclaude.in/"]
+EXCLUDE = {"claude-lulm"}  # Luma slugs to never list
 UA = {"User-Agent": "Mozilla/5.0 (origin-guild-events)"}
 
 
@@ -63,7 +64,7 @@ def slugs():
             out += re.findall(r'https?://(?:www\.)?lu(?:ma\.com|\.ma)/([A-Za-z0-9_-]+)', get(site))
         except Exception as e:
             print(f"skip {site}: {e}", file=sys.stderr)
-    return [s for s in dict.fromkeys(out) if s not in ("user", "calendar", "embed", "event")]
+    return [s for s in dict.fromkeys(out) if s not in ("user", "calendar", "embed", "event") and s not in EXCLUDE]
 
 
 def main():
