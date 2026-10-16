@@ -1,18 +1,5 @@
 [
   {
-    "id": "claude-3brg",
-    "evt": "evt-CSyuH9KRvJTJEl4",
-    "title": "Bhopal | Claude Code Workshop",
-    "start": "2026-10-15T11:30:00.000Z",
-    "end": "2026-10-15T14:30:00.000Z",
-    "where": "Online",
-    "hosts": "Aniket Sahu · Claude Community Events",
-    "desc": "Join us for a hands-on workshop introducing the Claude ecosystem and how developers can build with Claude Code. This session is designed to help participants understand the different products within the Claude ecosystem when to use them and how they work together to support modern AI-powered development workflows.…",
-    "cover": "https://images.lumacdn.com/api-uploads/cj/f8e04431-12a2-448d-83e2-c23691a657ff.png",
-    "url": "https://luma.com/claude-3brg",
-    "approval": true
-  },
-  {
     "id": "rehgljyq",
     "evt": "evt-4iN6jvPxVGxlLEr",
     "title": "Tally Meetup - Bhopal",
@@ -23,6 +10,19 @@
     "desc": "We're hosting the first Tally meetup in Bhopal and you're invited. Quick note: this is Tally the form builder (tally.so), not Tally the accounting software. Tally is a free, no-code tool for making forms, surveys and sign-ups, and its AI assistant can build one from a plain description. Join us for an afternoon…",
     "cover": "https://images.lumacdn.com/uploads/6u/fba10008-c3b3-4795-8ade-8df17d157ef7.png",
     "url": "https://luma.com/rehgljyq",
+    "approval": true
+  },
+  {
+    "id": "qi1x1sua",
+    "evt": "evt-6G9W16tfsueIjb0",
+    "title": "Cafe Compute Meetup: Indore",
+    "start": "2026-10-18T11:30:00.000Z",
+    "end": "2026-10-18T14:00:00.000Z",
+    "where": "Indore, Madhya Pradesh",
+    "hosts": "Diyi Zhu, Aniket Sahu · Cerebras",
+    "desc": "Cerebras is excited to present Cafe Compute Meetup in Indore, hosted by Cerebras Ambassador Aniket Sahu. Enjoy the fast vibes, great food, cool people and more. Bring your laptop. This is a space to code, collab and build in a cozy evening vibe. The event runs from 5pm to 8pm sharp. We'd love for you to be there…",
+    "cover": "https://images.lumacdn.com/uploads/a6/cee9b215-684e-46ab-aee1-5cd9f0f8937a.png",
+    "url": "https://luma.com/qi1x1sua",
     "approval": true
   }
 ]
