@@ -1,12 +1,25 @@
 [
   {
+    "id": "claude-qax4",
+    "evt": "evt-4CHDcOU7oEqR3gK",
+    "title": "Bhopal | Claude Code Meetup",
+    "start": "2026-10-23T12:00:00.000Z",
+    "end": "2026-10-23T15:00:00.000Z",
+    "where": "Online",
+    "hosts": "Aniket Sahu · Claude Community Events",
+    "desc": "Claude Code Meetup | Claude Community Bhopal Join us for our upcoming Claude Code Meetup, an evening for developers, AI engineers and builders in Bhopal who are using Claude to ship real things. Come share how you are using Claude and Claude Code in your work, see what others in the community have built over the…",
+    "cover": "https://images.lumacdn.com/api-uploads/u7/6a9c0149-3ce1-4be5-aaae-cbf1134e44b9.png",
+    "url": "https://luma.com/claude-qax4",
+    "approval": true
+  },
+  {
     "id": "heygen-tmgs",
     "evt": "evt-8jfukXXvQfPFlGk",
     "title": "HeyGen Community Night: Indore",
     "start": "2026-10-24T10:30:00.000Z",
     "end": "2026-10-24T13:30:00.000Z",
     "where": "Indore, Madhya Pradesh",
-    "hosts": "HeyGen Community, Vishal kumar · HeyGen Community Events",
+    "hosts": "HeyGen Community, Vishal kumar, Laksh · HeyGen Community Events",
     "desc": "This event is hosted by a HeyGen Community member, Vishal Kumar. Spend an evening making AI videos with HeyGen in Indore. We'll start with a live walkthrough of how HeyGen turns a script into an avatar video, then show voice cloning and translation. After that it's your turn: you'll make your own short video from a…",
     "cover": "https://images.lumacdn.com/uploads/1q/251eee08-3f7b-42b2-b5fd-0d75fc46295a.png",
     "url": "https://luma.com/heygen-tmgs",
@@ -23,6 +36,19 @@
     "desc": "Start your day off with a coffee at Raycafé! ☕ Meet developers, students and productivity nerds from around the city, share your favourite Raycast tips, and see how other people set up their workflows. It's a relaxed morning to hang out and chat, not a conference. What to expect: A quick Raycast 101 if you're new…",
     "cover": "https://images.lumacdn.com/uploads/0u/79554db9-1f3e-4e16-a109-2aff6d2007fb.png",
     "url": "https://luma.com/rc0s5wcs",
+    "approval": true
+  },
+  {
+    "id": "claude-s0yt",
+    "evt": "evt-Vpm9XpMA9kiNnax",
+    "title": "Bhopal | Claude for Founders Meetup",
+    "start": "2026-10-25T12:00:00.000Z",
+    "end": "2026-10-25T14:30:00.000Z",
+    "where": "DB City Mall, Bhopal, Madhya Pradesh",
+    "hosts": "Aniket Sahu · Claude Community Events",
+    "desc": "Claude for Founders | Claude Community Bhopal Bhopal’s most awaited founders meetup is here. Whether you are running a startup, building your first product or still shaping an idea, this evening is for founders who want to see how Claude can help them build faster and work smarter. What to expect Real stories from…",
+    "cover": "https://images.lumacdn.com/api-uploads/u7/6a9c0149-3ce1-4be5-aaae-cbf1134e44b9.png",
+    "url": "https://luma.com/claude-s0yt",
     "approval": true
   }
 ]
