@@ -1,18 +1,5 @@
 [
   {
-    "id": "c3e5x2r4",
-    "evt": "evt-sInFbroMAdqsN7g",
-    "title": "Cafe Compute Meetup: Indore",
-    "start": "2026-10-31T11:30:00.000Z",
-    "end": "2026-10-31T14:00:00.000Z",
-    "where": "Sector A, Indore, Madhya Pradesh",
-    "hosts": "Aniket Sahu, Diyi Zhu · Personal",
-    "desc": "Cafe Compute Meetup: IndoreCerebras is excited to present Cafe Compute Meetup in Indore, hosted by Cerebras Ambassador Aniket Sahu. Enjoy the fast vibes, great food, cool people and more. Join us for a relaxed, in-person meetup for developers, founders, students and AI enthusiasts who are curious about building…",
-    "cover": "https://images.lumacdn.com/uploads/a6/cee9b215-684e-46ab-aee1-5cd9f0f8937a.png",
-    "url": "https://luma.com/c3e5x2r4",
-    "approval": true
-  },
-  {
     "id": "claude-8ej2",
     "evt": "evt-2nvTaWT6ZK53QzK",
     "title": "Bhopal | Claude Code Workshop",
@@ -29,9 +16,9 @@
     "id": "claude-0yz1",
     "evt": "evt-lEdV5rOtFA9Zysr",
     "title": "Mumbai | Claude Code Meetup & Workshop",
-    "start": "2026-11-03T13:00:00.000Z",
-    "end": "2026-11-03T14:30:00.000Z",
-    "where": "Mumbai, Maharashtra",
+    "start": "2026-11-03T10:00:00.000Z",
+    "end": "2026-11-03T13:00:00.000Z",
+    "where": "MMRDA Area, Mumbai, Maharashtra",
     "hosts": "Aniket Sahu, Sumeet G Doshi, Builder Base · Claude Community Events",
     "desc": "Claude Community Meetup | Mumbai, Devcon Week Join us for a special Claude Community Meetup in Mumbai during Devcon week, when the Ethereum ecosystem’s annual flagship conference brings developers, founders and builders from around the world to the city. Whether you are from Mumbai or in town for Devcon, come share…",
     "cover": "https://images.lumacdn.com/uploads/yp/7ec68c8f-e5af-473d-aee4-f34cea45aae5.png",
