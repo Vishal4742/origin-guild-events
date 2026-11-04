@@ -1,36 +1,10 @@
 [
   {
-    "id": "claude-8ej2",
-    "evt": "evt-2nvTaWT6ZK53QzK",
-    "title": "Bhopal | Claude Code Workshop",
-    "start": "2026-11-01T10:30:00.000Z",
-    "end": "2026-11-01T13:30:00.000Z",
-    "where": "Jubali Gate, Bhopal, Madhya Pradesh",
-    "hosts": "Aniket Sahu · Claude Community Events",
-    "desc": "Claude Code Workshop | Claude Community Bhopal Stop reading about AI coding tools. Come build with one. Join us for a hands-on Claude Code Workshop in Bhopal, a session for developers, students and builders who want to go from “I’ve heard of Claude Code” to “I just shipped something with it.” This is not a lecture.…",
-    "cover": "https://images.lumacdn.com/api-uploads/cj/f8e04431-12a2-448d-83e2-c23691a657ff.png",
-    "url": "https://luma.com/claude-8ej2",
-    "approval": true
-  },
-  {
-    "id": "claude-0yz1",
-    "evt": "evt-lEdV5rOtFA9Zysr",
-    "title": "Mumbai | Claude Code Meetup & Workshop",
-    "start": "2026-11-03T10:00:00.000Z",
-    "end": "2026-11-03T13:00:00.000Z",
-    "where": "MMRDA Area, Mumbai, Maharashtra",
-    "hosts": "Aniket Sahu, Sumeet G Doshi, Builder Base · Claude Community Events",
-    "desc": "Claude Community Meetup | Mumbai, Devcon Week Join us for a special Claude Community Meetup in Mumbai during Devcon week, when the Ethereum ecosystem’s annual flagship conference brings developers, founders and builders from around the world to the city. Whether you are from Mumbai or in town for Devcon, come share…",
-    "cover": "https://images.lumacdn.com/uploads/yp/7ec68c8f-e5af-473d-aee4-f34cea45aae5.png",
-    "url": "https://luma.com/claude-0yz1",
-    "approval": true
-  },
-  {
     "id": "b2scefde",
     "evt": "evt-Xs3C0Owpa4JQHSQ",
     "title": "Cafe Compute Meetup: Mumbai",
-    "start": "2026-11-04T13:00:00.000Z",
-    "end": "2026-11-04T15:30:00.000Z",
+    "start": "2026-11-05T13:00:00.000Z",
+    "end": "2026-11-05T15:30:00.000Z",
     "where": "Mumbai, Maharashtra",
     "hosts": "Aniket Sahu, Diyi Zhu, Arun Chandel, Builder Base · Personal",
     "desc": "Cafe Compute Meetup: Mumbai | Devcon Week Edition Cerebras is excited to present Cafe Compute Meetup in Mumbai during Devcon week, hosted by Cerebras Ambassador Aniket Sahu and Arun Chandel Devcon, the Ethereum ecosystem’s annual flagship conference, is bringing thousands of developers, founders, researchers and…",
