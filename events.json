@@ -1,26 +1,13 @@
 [
   {
-    "id": "b2scefde",
-    "evt": "evt-Xs3C0Owpa4JQHSQ",
-    "title": "Cafe Compute Meetup: Mumbai",
-    "start": "2026-11-05T13:00:00.000Z",
-    "end": "2026-11-05T15:30:00.000Z",
-    "where": "Mumbai, Maharashtra",
-    "hosts": "Aniket Sahu, Diyi Zhu, Arun Chandel, Builder Base · Personal",
-    "desc": "Cafe Compute Meetup: Mumbai | Devcon Week Edition Cerebras is excited to present Cafe Compute Meetup in Mumbai during Devcon week, hosted by Cerebras Ambassador Aniket Sahu and Arun Chandel Devcon, the Ethereum ecosystem’s annual flagship conference, is bringing thousands of developers, founders, researchers and…",
-    "cover": "https://images.lumacdn.com/uploads/a6/cee9b215-684e-46ab-aee1-5cd9f0f8937a.png",
-    "url": "https://luma.com/b2scefde",
-    "approval": true
-  },
-  {
     "id": "claude-4nyy",
     "evt": "evt-A313V0jzFkmmvub",
     "title": "Bhopal | Claude Code Workshop",
     "start": "2026-11-07T12:00:00.000Z",
     "end": "2026-11-07T14:30:00.000Z",
-    "where": "Online",
+    "where": "Near City Hospital, Bhopal, Madhya Pradesh",
     "hosts": "Aniket Sahu · Claude Community Events",
-    "desc": "Claude Code Workshop: Level Up | Claude Community Bhopal Got Claude Code running? Now let’s make it work for you. This is our follow-up Claude Code workshop for builders who’ve moved past “hello world” and want to use Claude Code the way experienced developers do: on real projects, with real workflows, at real…",
+    "desc": "Claude Code Workshop and Build Day: Level Up | Claude Community Bhopal Got Claude Code running? Now let’s make it work for you. This is our follow-up Claude Code Build Day for builders who’ve moved past “hello world” and want to use Claude Code the way experienced developers do: on real projects, with real…",
     "cover": "https://images.lumacdn.com/api-uploads/cj/f8e04431-12a2-448d-83e2-c23691a657ff.png",
     "url": "https://luma.com/claude-4nyy",
     "approval": true
