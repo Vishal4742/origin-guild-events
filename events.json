@@ -52,6 +52,19 @@
     "approval": true
   },
   {
+    "id": "claude-4xxl",
+    "evt": "evt-S7CYCOUCLbCohb8",
+    "title": "Bhopal | Claude Code Workshop for Government Officials",
+    "start": "2026-11-29T11:30:00.000Z",
+    "end": "2026-11-29T14:00:00.000Z",
+    "where": "Online",
+    "hosts": "Aniket Sahu · Claude Community Events",
+    "desc": "Claude for Government: Claude Code Workshop & Meetup | Claude Community Bhopal Government systems serve millions of people and many of them still run on code written decades ago. AI-assisted development can change how quickly public-sector teams build, maintain and improve the tools citizens depend on. For the…",
+    "cover": "https://images.lumacdn.com/api-uploads/cj/f8e04431-12a2-448d-83e2-c23691a657ff.png",
+    "url": "https://luma.com/claude-4xxl",
+    "approval": true
+  },
+  {
     "id": "h6g2zx9f",
     "evt": "evt-sGc5Daq7oOZUPcU",
     "title": "Cafe Compute Meetup: Indore",
@@ -62,6 +75,19 @@
     "desc": "Cafe Compute Meetup: IndoreCerebras is excited to present Cafe Compute Meetup in Indore, hosted by Cerebras Ambassador Aniket Sahu. Enjoy the fast vibes, great food, cool people and more. Join us for a relaxed, in-person meetup for developers, founders, students and AI enthusiasts who are curious about building…",
     "cover": "https://images.lumacdn.com/uploads/a6/cee9b215-684e-46ab-aee1-5cd9f0f8937a.png",
     "url": "https://luma.com/h6g2zx9f",
+    "approval": true
+  },
+  {
+    "id": "claude-m3ex",
+    "evt": "evt-N1btN1vJnOVOEc8",
+    "title": "Bhopal | Claude for Chartered Accountants Meetup",
+    "start": "2026-12-06T12:00:00.000Z",
+    "end": "2026-12-06T14:00:00.000Z",
+    "where": "Online",
+    "hosts": "Aniket Sahu · Claude Community Events",
+    "desc": "Claude for Chartered Accountants: Finance Professionals Meetup | Claude Community Bhopal Every year-end, audit season and GST deadline, finance professionals spend hours on work that’s important but repetitive: reading circulars, reconciling ledgers, drafting notices and preparing working papers. AI is starting to…",
+    "cover": "https://images.lumacdn.com/api-uploads/u7/6a9c0149-3ce1-4be5-aaae-cbf1134e44b9.png",
+    "url": "https://luma.com/claude-m3ex",
     "approval": true
   }
 ]
