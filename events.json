@@ -1,18 +1,5 @@
 [
   {
-    "id": "claude-vtm6",
-    "evt": "evt-K8HvFYekuXrG6DW",
-    "title": "Bhopal | Claude Code Workshop",
-    "start": "2026-11-14T12:00:00.000Z",
-    "end": "2026-11-14T14:30:00.000Z",
-    "where": "Online",
-    "hosts": "Aniket Sahu · Claude Community Events",
-    "desc": "Bhopal | Claude Code Workshop Ship It: From Idea to Live App with Claude Code Most side projects never leave a laptop. This one will. Join us for Ship It, a hands-on Claude Code workshop by Claude Community Bhopal for developers, students and makers who are tired of half-finished projects. In one evening, you will…",
-    "cover": "https://images.lumacdn.com/api-uploads/cj/f8e04431-12a2-448d-83e2-c23691a657ff.png",
-    "url": "https://luma.com/claude-vtm6",
-    "approval": true
-  },
-  {
     "id": "claude-a33d",
     "evt": "evt-ste1FXlgIXRMxj4",
     "title": "Bhopal | Claude Meetup",
