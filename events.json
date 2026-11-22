@@ -1,18 +1,5 @@
 [
   {
-    "id": "claude-b4mc",
-    "evt": "evt-8CVlKGOGLHQNv1T",
-    "title": "Bhopal | Claude Code Workshop",
-    "start": "2026-11-19T12:00:00.000Z",
-    "end": "2026-11-19T14:30:00.000Z",
-    "where": "Kunjan Nagar Phase II, Bhopal, Madhya Pradesh",
-    "hosts": "Aniket Sahu · Claude Community Events",
-    "desc": "Bhopal | Claude Code Workshop Claude Code for Student Builders Your next project, internship or hackathon win could start this afternoon. Join us for Claude Code for Student Builders an afternoon workshop by Claude Community Bhopal for college students who want to learn the AI coding skills the industry is starting…",
-    "cover": "https://images.lumacdn.com/api-uploads/cj/f8e04431-12a2-448d-83e2-c23691a657ff.png",
-    "url": "https://luma.com/claude-b4mc",
-    "approval": true
-  },
-  {
     "id": "claude-89py",
     "evt": "evt-UzYqBM21ToPFjmx",
     "title": "Bhopal | Claude Code Build Day - Fable 5.2",
@@ -23,6 +10,19 @@
     "desc": "Fable 5.2 and Mythos 5.2 is here. Let’s see what it can do. Join us for the Claude Build Day, a hands-on evening by Claude Community Bhopal for developers, builders, students and AI enthusiasts. Build Days happen in cities around the world right after Anthropic ships a new Claude model, so builders everywhere get…",
     "cover": "https://images.lumacdn.com/uploads/2v/01836c36-8693-4255-8a0e-7e7818f4ae4f.png",
     "url": "https://luma.com/claude-89py",
+    "approval": true
+  },
+  {
+    "id": "claude-r38s",
+    "evt": "evt-7668zjjRwZFuijG",
+    "title": "Bhopal | Claude for Working Professionals",
+    "start": "2026-11-26T11:30:00.000Z",
+    "end": "2026-11-26T14:30:00.000Z",
+    "where": "DB City Mall, Bhopal, Madhya Pradesh",
+    "hosts": "Aniket Sahu · Claude Community Events",
+    "desc": "A small curated Claude Community Bhopal meetup over coffee, for working professionals who are curious about AI and want to see how Claude can make a real difference in their day-to-day work. We are keeping the seats limited on purpose, so the evening stays intimate and the conversations stay meaningful. Expect…",
+    "cover": "https://images.lumacdn.com/api-uploads/tg/70004513-6574-420d-99ef-99e3daa2dbc9.png",
+    "url": "https://luma.com/claude-r38s",
     "approval": true
   },
   {
@@ -62,6 +62,32 @@
     "desc": "Claude for Chartered Accountants: Finance Professionals Meetup | Claude Community Bhopal Every year-end, audit season and GST deadline, finance professionals spend hours on work that’s important but repetitive: reading circulars, reconciling ledgers, drafting notices and preparing working papers. AI is starting to…",
     "cover": "https://images.lumacdn.com/api-uploads/u7/6a9c0149-3ce1-4be5-aaae-cbf1134e44b9.png",
     "url": "https://luma.com/claude-m3ex",
+    "approval": true
+  },
+  {
+    "id": "qciwpe4c",
+    "evt": "evt-J4l1Lb3OFylKshQ",
+    "title": "Cafe Compute Meetup: Kolkata",
+    "start": "2026-12-20T11:30:00.000Z",
+    "end": "2026-12-20T14:00:00.000Z",
+    "where": "Kolkata, West Bengal",
+    "hosts": "Aniket Sahu, Diyi Zhu · Personal",
+    "desc": "Cafe Compute Meetup: KolkataCerebras is excited to present Cafe Compute Meetup in Kolkata, hosted by Cerebras Ambassador Aniket Sahu. Enjoy the fast vibes, great food, cool people and more. Join us for a relaxed, in-person meetup for developers, founders, students and AI enthusiasts who are curious about building…",
+    "cover": "https://images.lumacdn.com/uploads/a6/cee9b215-684e-46ab-aee1-5cd9f0f8937a.png",
+    "url": "https://luma.com/qciwpe4c",
+    "approval": true
+  },
+  {
+    "id": "mfw96c0u",
+    "evt": "evt-ontVxsBFTy7K7sz",
+    "title": "Cafe Compute Meetup: Indore",
+    "start": "2026-12-27T11:30:00.000Z",
+    "end": "2026-12-27T14:00:00.000Z",
+    "where": "Indore, Madhya Pradesh",
+    "hosts": "Aniket Sahu, Diyi Zhu · Personal",
+    "desc": "Cafe Compute Meetup: IndoreCerebras is excited to present Cafe Compute Meetup in Indore, hosted by Cerebras Ambassador Aniket Sahu. Enjoy the fast vibes, great food, cool people and more. Join us for a relaxed, in-person meetup for developers, founders, students and AI enthusiasts who are curious about building…",
+    "cover": "https://images.lumacdn.com/uploads/a6/cee9b215-684e-46ab-aee1-5cd9f0f8937a.png",
+    "url": "https://luma.com/mfw96c0u",
     "approval": true
   }
 ]
