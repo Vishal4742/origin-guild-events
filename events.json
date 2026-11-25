@@ -1,18 +1,5 @@
 [
   {
-    "id": "claude-89py",
-    "evt": "evt-UzYqBM21ToPFjmx",
-    "title": "Bhopal | Claude Code Build Day - Fable 5.2",
-    "start": "2026-11-22T08:30:00.000Z",
-    "end": "2026-11-22T13:30:00.000Z",
-    "where": "Minal Residency, Bhopal, Madhya Pradesh",
-    "hosts": "Aniket Sahu · Claude Community Events",
-    "desc": "Fable 5.2 and Mythos 5.2 is here. Let’s see what it can do. Join us for the Claude Build Day, a hands-on evening by Claude Community Bhopal for developers, builders, students and AI enthusiasts. Build Days happen in cities around the world right after Anthropic ships a new Claude model, so builders everywhere get…",
-    "cover": "https://images.lumacdn.com/uploads/2v/01836c36-8693-4255-8a0e-7e7818f4ae4f.png",
-    "url": "https://luma.com/claude-89py",
-    "approval": true
-  },
-  {
     "id": "claude-r38s",
     "evt": "evt-7668zjjRwZFuijG",
     "title": "Bhopal | Claude for Working Professionals",
@@ -44,7 +31,7 @@
     "title": "Cafe Compute Meetup: Indore",
     "start": "2026-11-29T11:30:00.000Z",
     "end": "2026-11-29T14:00:00.000Z",
-    "where": "Sector A, Indore, Madhya Pradesh",
+    "where": "Scheme Number 78, Indore, Madhya Pradesh",
     "hosts": "Aniket Sahu, Diyi Zhu · Personal",
     "desc": "Cafe Compute Meetup: IndoreCerebras is excited to present Cafe Compute Meetup in Indore, hosted by Cerebras Ambassador Aniket Sahu. Enjoy the fast vibes, great food, cool people and more. Join us for a relaxed, in-person meetup for developers, founders, students and AI enthusiasts who are curious about building…",
     "cover": "https://images.lumacdn.com/uploads/a6/cee9b215-684e-46ab-aee1-5cd9f0f8937a.png",
