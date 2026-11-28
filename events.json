@@ -1,18 +1,5 @@
 [
   {
-    "id": "claude-r38s",
-    "evt": "evt-7668zjjRwZFuijG",
-    "title": "Bhopal | Claude for Working Professionals",
-    "start": "2026-11-26T11:30:00.000Z",
-    "end": "2026-11-26T14:30:00.000Z",
-    "where": "DB City Mall, Bhopal, Madhya Pradesh",
-    "hosts": "Aniket Sahu · Claude Community Events",
-    "desc": "A small curated Claude Community Bhopal meetup over coffee, for working professionals who are curious about AI and want to see how Claude can make a real difference in their day-to-day work. We are keeping the seats limited on purpose, so the evening stays intimate and the conversations stay meaningful. Expect…",
-    "cover": "https://images.lumacdn.com/api-uploads/tg/70004513-6574-420d-99ef-99e3daa2dbc9.png",
-    "url": "https://luma.com/claude-r38s",
-    "approval": true
-  },
-  {
     "id": "claude-4xxl",
     "evt": "evt-S7CYCOUCLbCohb8",
     "title": "Bhopal | Claude Code Workshop for Government Officials",
@@ -49,6 +36,19 @@
     "desc": "Claude for Chartered Accountants: Finance Professionals Meetup | Claude Community Bhopal Every year-end, audit season and GST deadline, finance professionals spend hours on work that’s important but repetitive: reading circulars, reconciling ledgers, drafting notices and preparing working papers. AI is starting to…",
     "cover": "https://images.lumacdn.com/api-uploads/u7/6a9c0149-3ce1-4be5-aaae-cbf1134e44b9.png",
     "url": "https://luma.com/claude-m3ex",
+    "approval": true
+  },
+  {
+    "id": "mk3rpw7h",
+    "evt": "evt-xzPPiGwZ2sL4TIU",
+    "title": "Manus Community Event | Build with Manus AI",
+    "start": "2026-12-20T08:30:00.000Z",
+    "end": "2026-12-20T12:00:00.000Z",
+    "where": "Online",
+    "hosts": "Aniket Sahu · Personal",
+    "desc": "Build with Manus AI: Where Non-Techies Become BuildersEver had an idea for an app, tool or product but never knew how to build it because you weren't technical? Well, here's your chance! Spend an afternoon turning your ideas into reality with Manus 2.0. No coding or technical experience required. Just bring your…",
+    "cover": "https://images.lumacdn.com/uploads/e0/b3a790bb-209b-498b-a4f5-7bcc21fc48ff.png",
+    "url": "https://luma.com/mk3rpw7h",
     "approval": true
   },
   {
